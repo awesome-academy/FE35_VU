@@ -172,3 +172,8 @@ mixin table-acc(status, indept, disable)
         td
             span.total= indept
                 small(class=disable) đ
+
+mixin form-group(label, type)
+    .form-group
+        label= label
+        input(type=type)
